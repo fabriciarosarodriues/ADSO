@@ -1,0 +1,8 @@
+sudo hostnamectl set-hostname nuevo-nombre
+
+#editar archivo /etc/hosts
+
+sudo systemctl restart systemd-hostnamed
+
+sudo reboot
+
